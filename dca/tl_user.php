@@ -2,7 +2,7 @@
 
 $GLOBALS['TL_DCA']['tl_user']['fields']['userSRC'] = array
 (
-	'label'                   => &$GLOBALS['TL_LANG']['tl_content']['singleSRC'],
+	'label'                   => &$GLOBALS['TL_LANG']['tl_user']['singleSRC'],
 	'exclude'                 => true,
 	'inputType'               => 'fileTree',
 	'eval'                    => array('filesOnly'=>true, 'fieldType'=>'radio', 'mandatory'=>true, 'tl_class'=>'clr'),
@@ -11,7 +11,7 @@ $GLOBALS['TL_DCA']['tl_user']['fields']['userSRC'] = array
 
 $GLOBALS['TL_DCA']['tl_user']['fields']['addImage'] = array
 (
-	'label'                   => &$GLOBALS['TL_LANG']['tl_content']['addImage'],
+	'label'                   => &$GLOBALS['TL_LANG']['tl_user']['addImage'],
 	'exclude'                 => true,
 	'inputType'               => 'checkbox',
 	'eval'                    => array('submitOnChange'=>true),
@@ -20,7 +20,7 @@ $GLOBALS['TL_DCA']['tl_user']['fields']['addImage'] = array
 
 $GLOBALS['TL_DCA']['tl_user']['fields']['text'] = array
 (
-	'label'                   => &$GLOBALS['TL_LANG']['tl_content']['text'],
+	'label'                   => &$GLOBALS['TL_LANG']['tl_user']['text'],
 	'exclude'                 => true,
 	'inputType'               => 'textarea',
 	'eval'                    => array(),
