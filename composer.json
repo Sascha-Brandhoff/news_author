@@ -1,0 +1,35 @@
+{
+    "name":"sascha-brandhoff/news_author",
+    "description":"Zeigt zum aktuellen Nachrichtenbeitrag den Autoren an der diesen geschrieben hat. Zudem wird dem Benutzerprofil ein Beschreibungsfeld hinzugefügt und die Auswahl eines Autorenbildes ermöglicht.",
+    "keywords":["contao", "news", "autoren"],
+    "type":"contao-module",
+    "homepage":"http://contao.kitchen/de/autoren-fuer-nachrichten.html",
+    "license":"LGPLv3",
+    "authors":[
+	{
+	    "name":"Sascha Brandhoff",
+	    "email":"sascha.brandhoff@gmail.com",
+	    "homepage":"https://www.paypal.me/pixelSpreadde",
+	    "role":"Developer"
+	}
+    ],
+    "support":{
+	"email":"sascha.brandhoff@gmail.com",
+	"issues":"https://github.com/Sascha-Brandhoff/news_author/issues",
+	"source":"https://github.com/Sascha-Brandhoff/news_author"
+    },
+    "require":{
+	"php":">=5.3",
+	"contao/core": ">=3.4,<3.6"
+    },
+    "replace":{
+	"sascha-brandhoff/news_author":"self.version"
+    },
+    "extra":{
+	"contao":{
+	    "sources":{
+		"":"system/modules/news_author"
+	    }
+	}
+    }
+}
