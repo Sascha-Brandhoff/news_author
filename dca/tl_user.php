@@ -23,7 +23,7 @@ $GLOBALS['TL_DCA']['tl_user']['fields']['text'] = array
 	'label'                   => &$GLOBALS['TL_LANG']['tl_user']['text'],
 	'exclude'                 => true,
 	'inputType'               => 'textarea',
-	'eval'                    => array(),
+	'eval'                    => array('mandatory'=>false, 'rte'=>'tinyMCE', 'helpwizard'=>true),
 	'sql'                     => "mediumtext NULL"
 );
 
